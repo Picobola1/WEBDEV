@@ -60,11 +60,12 @@ html, body {
     pointer-events: none;
 }
 #electronicsB {
-    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 1180px;
+    width: 150px;
     height: 200px;
-    margin-top: -800px;
-    margin-left: 1150px;
-    background-color: green;   
+    background-color: transparent;
     border-style: none;
+    cursor: pointer;
 }
-
