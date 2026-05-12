@@ -42,12 +42,10 @@ html, body {
     pointer-events: none;
 }
 #hotglueB {
-    width: 250px;
-    height: 100px;
-    margin-top: 200px;
-    margin-bottom: 500px;
-    margin-left: 500px;
-    margin-right: 500px;
-    background-color: green;   
+    width: 135px;
+    height: 150px;
+    margin-top: 140px;
+    margin-left: 825px;
+    background-color: transparent;   
     border-style: none;
 }
