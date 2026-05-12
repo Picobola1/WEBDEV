@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
   ">
    <div>
-         <img src="Junk.png" style="
+         <img id="junk" src="Junk.png" style="
             position: absolute;
             top: 0;
             left: 0;
@@ -31,9 +31,9 @@
             height: 100%;
             object-fit: cover;
             cursor: pointer;
+            pointer-events: none;
             "
-            onmouseover="this.style.filter='drop-shadow(0 0 20px white)'"
-            onmouseout="this.style.filter='none'"
+            
             
             >
             
@@ -44,7 +44,12 @@
                 margin-bottom: 50px;
                 margin-left: 555px;
                 margin-right: 500px;
-            ">
+                background-color: transparent;   
+                border-style: none;
+            "
+            onmouseover="document.getElementById('junk').style.filter='drop-shadow(0 0 10px white)'"
+            onmouseout="document.getElementById('junk').style.filter='none'">
+            >
 
             </button>
    </div>
