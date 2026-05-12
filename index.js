@@ -6,4 +6,11 @@ document.getElementById('junkB').onmouseover = function() {
 document.getElementById('junkB').onmouseout = function() {
   document.getElementById('junk').style.filter = 'none';
 };
+document.getElementById('hotglueB').onmouseover = function() {
+  document.getElementById('hotglue').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('hotglueB').onmouseout = function() {
+  document.getElementById('hotglue').style.filter = 'none';
+};
     
