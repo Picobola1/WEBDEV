@@ -81,11 +81,11 @@ html, body {
 }
 #deoterantB {
     position: absolute;
-    top: 500px;
-    left: 1180px;
-    width: 150px;
-    height: 200px;
-    background-color: green;
+    top: 530px;
+    left: 1020px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
     border-style: none;
     cursor: pointer;
 }
