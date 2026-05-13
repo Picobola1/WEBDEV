@@ -89,3 +89,23 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    pointer-events: none;
+}
+#stickerB {
+    position: absolute;
+    top: 510px;
+    left: 720px;
+    width: 70px;
+    height: 50px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}

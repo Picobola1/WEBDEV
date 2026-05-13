@@ -27,4 +27,11 @@ document.getElementById('deoterantB').onmouseover = function() {
 document.getElementById('deoterantB').onmouseout = function() {
   document.getElementById('deoterant').style.filter = 'none';
 };
+document.getElementById('stickerB').onmouseover = function() {
+  document.getElementById('sticker').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('stickerB').onmouseout = function() {
+  document.getElementById('sticker').style.filter = 'none';
+};
     
