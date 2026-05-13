@@ -171,4 +171,46 @@ html, body {
     cursor: pointer;
     rotate: 70deg;
 }
+#pokemon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    pointer-events: none;
+}
+#pokemonB {
+    position: absolute;
+    top: 355px;
+    left: 1120px;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    rotate: 70deg;
+}
+#camera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    pointer-events: none;
+}
+#cameraB {
+    position: absolute;
+    top: 155px;
+    left: 1120px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-style: none;
+    cursor: pointer;
+    
+}
 

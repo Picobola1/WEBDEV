@@ -55,4 +55,11 @@ document.getElementById('pokemonB').onmouseover = function() {
 document.getElementById('pokemonB').onmouseout = function() {
   document.getElementById('pokemon').style.filter = 'none';
 };
+document.getElementById('cameraB').onmouseover = function() {
+  document.getElementById('camera').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('cameraB').onmouseout = function() {
+  document.getElementById('camera').style.filter = 'none';
+};
     
