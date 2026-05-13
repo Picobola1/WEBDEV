@@ -48,4 +48,11 @@ document.getElementById('transmitterB').onmouseover = function() {
 document.getElementById('transmitterB').onmouseout = function() {
   document.getElementById('transmitter').style.filter = 'none';
 };
+document.getElementById('pokemonB').onmouseover = function() {
+  document.getElementById('pokemon').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('pokemonB').onmouseout = function() {
+  document.getElementById('pokemon').style.filter = 'none';
+};
     
