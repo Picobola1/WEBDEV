@@ -204,13 +204,14 @@ html, body {
 }
 #cameraB {
     position: absolute;
-    top: 150px;
-    left: 1120px;
+    top: 360px;
+    left: 240px;
     width: 150px;
-    height: 150px;
-    background-color: green;
+    height: 100px;
+    background-color: transparent;
     border-style: none;
     cursor: pointer;
+    rotate: -15deg;
     
 }
 
