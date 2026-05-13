@@ -69,3 +69,23 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#deoterant {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    pointer-events: none;
+}
+#deoterantB {
+    position: absolute;
+    top: 500px;
+    left: 1180px;
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    border-style: none;
+    cursor: pointer;
+}

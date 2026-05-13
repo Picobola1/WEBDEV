@@ -20,4 +20,11 @@ document.getElementById('electronicsB').onmouseover = function() {
 document.getElementById('electronicsB').onmouseout = function() {
   document.getElementById('electronics').style.filter = 'none';
 };
+document.getElementById('deoterantB').onmouseover = function() {
+  document.getElementById('deoterant').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('deoterantB').onmouseout = function() {
+  document.getElementById('deoterant').style.filter = 'none';
+};
     
