@@ -41,4 +41,11 @@ document.getElementById('sunglassesB').onmouseover = function() {
 document.getElementById('sunglassesB').onmouseout = function() {
   document.getElementById('sunglasses').style.filter = 'none';
 };
+document.getElementById('transmitterB').onmouseover = function() {
+  document.getElementById('transmitter').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('transmitterB').onmouseout = function() {
+  document.getElementById('transmitter').style.filter = 'none';
+};
     
