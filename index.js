@@ -34,4 +34,11 @@ document.getElementById('stickerB').onmouseover = function() {
 document.getElementById('stickerB').onmouseout = function() {
   document.getElementById('sticker').style.filter = 'none';
 };
+document.getElementById('sunglassesB').onmouseover = function() {
+  document.getElementById('sunglasses').style.filter = 'drop-shadow(0 0 10px white)';
+};
+
+document.getElementById('sunglassesB').onmouseout = function() {
+  document.getElementById('sunglasses').style.filter = 'none';
+};
     
