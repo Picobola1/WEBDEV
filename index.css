@@ -215,14 +215,17 @@ html, body {
     
 }
 #cameraT {
+    position: relative;
     background-color: beige;
     border-style: dotted;
     border-radius: 5px;
-    top: 50px;
-    left: 50px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: none;
-    
+    margin-left: 250px;
+    margin-top: -300px;
+    padding: 10px;
 }
+
 
 
