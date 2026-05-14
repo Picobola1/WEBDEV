@@ -63,6 +63,10 @@ document.getElementById('cameraB').onmouseout = function() {
   document.getElementById('camera').style.filter = 'none';
 };
 document.getElementById('cameraB').onmousedown = function() {
-    document.getElementById('test').innerText = 'hi'
+    if (document.getElementById('cameraT').style.display === "block") {
+        document.getElementById('cameraT').style.display = "none";
+    } else {
+        document.getElementById('cameraT').style.display = "block";
+    }
 };
     

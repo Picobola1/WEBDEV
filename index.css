@@ -214,4 +214,15 @@ html, body {
     rotate: -15deg;
     
 }
+#cameraT {
+    background-color: beige;
+    border-style: dotted;
+    border-radius: 5px;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    display: none;
+    
+}
+
 
