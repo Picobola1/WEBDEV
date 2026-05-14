@@ -62,4 +62,7 @@ document.getElementById('cameraB').onmouseover = function() {
 document.getElementById('cameraB').onmouseout = function() {
   document.getElementById('camera').style.filter = 'none';
 };
+document.getElementById('cameraB').onmousedown = function() {
+    document.getElementById('test').innerText = 'hi'
+};
     
