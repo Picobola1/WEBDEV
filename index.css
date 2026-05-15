@@ -1,0 +1,18 @@
+#background {
+    background-image: linear-gradient(to left, rgb(192, 238, 204), rgb(84, 239, 123));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: scroll;
+    margin: 0px;
+}
+#welcomeT {
+    position: relative;
+    font-size: 85px;
+    text-align: center;
+    top: 50px;
+    color: white;
+}
+body {
+    font-family: 'Instrument Serif', sans-serif;
+}
