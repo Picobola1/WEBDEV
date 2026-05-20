@@ -13,6 +13,15 @@
     top: 50px;
     color: white;
 }
+#EllieT {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    top: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
     font-family: 'Instrument Serif', sans-serif;
 }
