@@ -23,3 +23,31 @@
     gap: 10px;
     padding: 14px 16px;
 }
+#sportsT {
+    font-size: 55px;
+    text-align: center;
+    color: white;    
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#running {
+    background-image: url(TrentonSandlerWEB.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rockcliming {
+
+}
+#triathelon {
+
+}
+#skateboarding {
+
+}
+#soccer {
+
+}
+#otherSports {
+
+}
