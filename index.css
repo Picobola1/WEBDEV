@@ -43,6 +43,7 @@
     width: 100%;
     display: flex;
     overflow-x: auto;
+    margin-top: 5px;
 }
 .carousel::-webkit-scrollbar{
     display: none;
@@ -59,7 +60,8 @@
     flex: 0 0 5em;
     height: 5em;
     padding:1em;
-   
+    width: 400px;
+    height: 400px;
     font-size: 3rem;
     border-radius: .2em;
     text-align: center;
