@@ -118,5 +118,12 @@ document.getElementById('hotglueB').onmousedown = function() {
         document.getElementById('hotglueT').style.display = "block";
     }
 };
+document.getElementById('junkB').onmousedown = function() {
+    if (document.getElementById('junkT').style.display === "block") {
+        document.getElementById('junkT').style.display = "none";
+    } else {
+        document.getElementById('junkT').style.display = "block";
+    }
+};
    
     
