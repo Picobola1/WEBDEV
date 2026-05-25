@@ -104,5 +104,12 @@ document.getElementById('deoterantB').onmousedown = function() {
         document.getElementById('deoterantT').style.display = "block";
     }
 };
+document.getElementById('electronicsB').onmousedown = function() {
+    if (document.getElementById('electronicsT').style.display === "block") {
+        document.getElementById('electronicsT').style.display = "none";
+    } else {
+        document.getElementById('electronicsT').style.display = "block";
+    }
+};
    
     

@@ -69,6 +69,22 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#electronicsT {
+    position: relative;
+    background-color: rgb(251, 235, 232);
+    border-style: solid;
+    border-color: rgb(99, 168, 42);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 250px;
+    width: 200px;
+    display: none;
+    margin-left: 935px;
+    margin-top: -400px;
+    padding: 5px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #deoterant {
     position: absolute;
     top: 0;
