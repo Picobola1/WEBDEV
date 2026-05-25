@@ -146,12 +146,12 @@
     left: 100px;
     border-radius: 15px;
     width: 350px;
-    height: 250px;
+    height: 300px;
     top: -415px;
     text-align: center;
 }
 #soccerT {
-    background-color: rgb(47, 129, 47); 
+    background-color: rgb(149, 140, 9); 
     color: azure;
     font-size: large;
     text-align: center;
@@ -161,10 +161,10 @@
 }
 #soccerM {
     position: relative;
-    left:auto;
+    left:365px;
     border-radius: 15px;
     width: 500px;
     height: 300px;
     text-align: center;
-    top: 85px;
+    top: -205px;
 }
