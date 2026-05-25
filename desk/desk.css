@@ -89,6 +89,22 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#deoterantT {
+    position: relative;
+    background-color: rgb(251, 235, 232);
+    border-style: solid;
+    border-color: rgb(16, 172, 245);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 85px;
+    width: 180px;
+    display: none;
+    margin-left: 825px;
+    margin-top: 50px;
+    padding: 5px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #sticker {
     position: absolute;
     top: 0;

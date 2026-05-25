@@ -97,5 +97,12 @@ document.getElementById('stickerB').onmousedown = function() {
         document.getElementById('stickerT').style.display = "block";
     }
 };
+document.getElementById('deoterantB').onmousedown = function() {
+    if (document.getElementById('deoterantT').style.display === "block") {
+        document.getElementById('deoterantT').style.display = "none";
+    } else {
+        document.getElementById('deoterantT').style.display = "block";
+    }
+};
    
     
