@@ -355,6 +355,23 @@ html, body {
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#coverUp {
+    position: relative;
+    background-color: beige;
+    border-style: solid;
+    border-color: rgb(159, 101, 14);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 125px;
+    width: 190px;
+    margin-left: 620px;
+    margin-top: -475px;
+    padding: 5px;
+    rotate: 45deg;
+    z-index:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 
 
