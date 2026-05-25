@@ -111,5 +111,12 @@ document.getElementById('electronicsB').onmousedown = function() {
         document.getElementById('electronicsT').style.display = "block";
     }
 };
+document.getElementById('hotglueB').onmousedown = function() {
+    if (document.getElementById('hotglueT').style.display === "block") {
+        document.getElementById('hotglueT').style.display = "none";
+    } else {
+        document.getElementById('hotglueT').style.display = "block";
+    }
+};
    
     

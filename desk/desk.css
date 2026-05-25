@@ -49,6 +49,22 @@ html, body {
     background-color: transparent;   
     border-style: none;
 }
+#hotglueT {
+    position: relative;
+    background-color: rgb(251, 235, 232);
+    border-style: solid;
+    border-color: rgb(214, 105, 21);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 195px;
+    width: 200px;
+    display: none;
+    margin-left: 885px;
+    margin-top: -400px;
+    padding: 5px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #electronics {
     position: absolute;
     top: 0;
