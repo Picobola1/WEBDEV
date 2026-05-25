@@ -150,6 +150,21 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#transmitterT {
+    position: relative;
+    background-color: rgb(247, 86, 58);
+    border-style: solid;
+    border-color: rgb(96, 90, 82);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 260px;
+    width: 200px;
+    display: none;
+    margin-left: 30px;
+    margin-top: -200px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #pokemon {
     position: absolute;
     top: 0;
@@ -201,7 +216,7 @@ html, body {
     border-radius: 5px;
     height: 140px;
     width: 200px;
-    display: block;
+    display: none;
     margin-left: 1120px;
     margin-top: -400px;
     padding: 5px;

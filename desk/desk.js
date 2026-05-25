@@ -76,4 +76,12 @@ document.getElementById('pokemonB').onmousedown = function() {
         document.getElementById('pokemonT').style.display = "block";
     }
 };
+document.getElementById('transmitterB').onmousedown = function() {
+    if (document.getElementById('transmitterT').style.display === "block") {
+        document.getElementById('transmitterT').style.display = "none";
+    } else {
+        document.getElementById('transmitterT').style.display = "block";
+    }
+};
+   
     
