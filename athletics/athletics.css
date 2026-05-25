@@ -32,7 +32,7 @@
 }
 #running {
     position: relative;
-    background-image: url(TrentonSandlerWEB.jpeg);
+    background-image: url(images\ \(1\).jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,12 +40,25 @@
     border-radius: 15px;
     width: 300px;
     height: 250px;
-    
     text-align: center;
     
 }
+#runningM {
+    position: relative;
+    background-image: url(images\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left:auto;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 25px;
+    
+}
 #runT {
-    background-color: rgb(141, 57, 225); 
+    background-color: rgb(231, 136, 34); 
     color: azure;
     font-size: large;
     text-align: center;
@@ -53,14 +66,105 @@
     width: 100%;
 }
 #triathelon {
-    
+    position: relative;
+    background-image: url(abstract-paper-cut-green-background_474888-7141.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left:415px;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    top: -250px;
+    text-align: center;
 }
-#skateboarding {
+#triathelonT {
+    background-color: rgb(234, 68, 68); 
+    color: azure;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+#traithelonM {
+    position: relative;
+    left:100px;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 68px;
+}
 
+#skateboarding {
+    position: relative;
+    background-image: url(red-liquid-ink-texture-design_1409-10383.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left:930px;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    top: -500px;
+    text-align: center;
+}
+#skateboardingT {
+    background-color: rgb(47, 129, 47); 
+    color: azure;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+#skateboardingnM {
+    position: relative;
+    left:auto;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 68px;
+}
+#image {
+    position: relative;
+    left:830px;
+    border-radius: 15px;
+    width: 85px;
+    height: 250px;
+    text-align: center;
+    top: -750px;
 }
 #soccer {
-
+    position: relative;
+    background-image: url(25022.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 100px;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    top: -415px;
+    text-align: center;
 }
-#otherSports {
-
+#soccerT {
+    background-color: rgb(47, 129, 47); 
+    color: azure;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+#soccerM {
+    position: relative;
+    left:auto;
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    top: 85px;
 }
