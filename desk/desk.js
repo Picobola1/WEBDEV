@@ -83,5 +83,12 @@ document.getElementById('transmitterB').onmousedown = function() {
         document.getElementById('transmitterT').style.display = "block";
     }
 };
+document.getElementById('sunglassesB').onmousedown = function() {
+    if (document.getElementById('sunglassesT').style.display === "block") {
+        document.getElementById('sunglassesT').style.display = "none";
+    } else {
+        document.getElementById('sunglassesT').style.display = "block";
+    }
+};
    
     

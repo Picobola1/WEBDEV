@@ -130,6 +130,22 @@ html, body {
     cursor: pointer;
     rotate: 45deg;
 }
+#sunglassesT {
+    position: relative;
+    background-color: rgb(251, 235, 232);
+    border-style: solid;
+    border-color: rgb(245, 184, 16);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 110px;
+    width: 180px;
+    display: none;
+    margin-left: 1125px;
+    margin-top: -10px;
+    padding: 5px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #transmitter {
     position: absolute;
     top: 0;
