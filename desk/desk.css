@@ -109,6 +109,22 @@ html, body {
     border-style: none;
     cursor: pointer;
 }
+#stickerT {
+    position: relative;
+    background-color: rgb(251, 235, 232);
+    border-style: solid;
+    border-color: rgb(245, 31, 16);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 110px;
+    width: 180px;
+    display: none;
+    margin-left: 700px;
+    margin-top: 50px;
+    padding: 5px;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #sunglasses {
     position: absolute;
     top: 0;

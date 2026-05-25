@@ -90,5 +90,12 @@ document.getElementById('sunglassesB').onmousedown = function() {
         document.getElementById('sunglassesT').style.display = "block";
     }
 };
+document.getElementById('stickerB').onmousedown = function() {
+    if (document.getElementById('stickerT').style.display === "block") {
+        document.getElementById('stickerT').style.display = "none";
+    } else {
+        document.getElementById('stickerT').style.display = "block";
+    }
+};
    
     
