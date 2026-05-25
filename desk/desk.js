@@ -69,4 +69,11 @@ document.getElementById('cameraB').onmousedown = function() {
         document.getElementById('cameraT').style.display = "block";
     }
 };
+document.getElementById('pokemonB').onmousedown = function() {
+    if (document.getElementById('pokemonT').style.display === "block") {
+        document.getElementById('pokemonT').style.display = "none";
+    } else {
+        document.getElementById('pokemonT').style.display = "block";
+    }
+};
     

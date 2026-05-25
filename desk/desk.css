@@ -192,6 +192,21 @@ html, body {
     cursor: pointer;
     rotate: 70deg;
 }
+#pokemonT {
+    position: relative;
+    background-color: rgb(255, 202, 44);
+    border-style: solid;
+    border-color: rgb(96, 90, 82);
+    border-width: 5px;
+    border-radius: 5px;
+    height: 140px;
+    width: 200px;
+    display: block;
+    margin-left: 1120px;
+    margin-top: -400px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #camera {
     position: absolute;
     top: 0;
