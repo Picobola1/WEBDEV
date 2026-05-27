@@ -36,7 +36,8 @@
     text-align: left;
     color: white;    
     margin-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-self: center;
 }
 
 body{
@@ -55,12 +56,12 @@ body{
     justify-self: center;
 }
 .containerM > img {
-    width: 284px;
-    height: 550px;
+    width: 280px;
+    height: 500px;
     justify-self: center;
     align-items: center;
     align-self: center;
     align-content: center;
     justify-content: center;
-    margin: 0;
+    margin-left: 4px;
 }
