@@ -39,7 +39,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-
+body{
+    margin: 0;
+}
 .container {
     columns: 3;
     column-gap: 0;
@@ -51,4 +53,14 @@
     display: block;
     break-inside: avoid;
     justify-self: center;
+}
+.containerM > img {
+    width: 284px;
+    height: 550px;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
 }
