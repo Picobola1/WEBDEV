@@ -1,0 +1,47 @@
+#background {
+    background-image: linear-gradient(90deg, rgb(227, 44, 44), rgb(254, 196, 182));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: scroll;
+    margin: 0px;
+}
+.headers a {
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.headers {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    padding: 14px 16px;
+}
+#projectT {
+    font-size: 55px;
+    text-align: center;
+    color: white;    
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.text {
+    width: 800px;
+    font-size: 15px;
+    text-align: left;
+    color: white;    
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-self: center;
+}
+#projects{
+    justify-self: center;
+}
+#projects > div{   
+    text-align: left;
+}
